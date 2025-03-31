@@ -19,11 +19,11 @@ Este proyecto contiene un conjunto de pruebas automatizadas utilizando [k6](http
 
 1. Ejecuta el script de prueba localmente:
    ```bash
-   k6 run prueba-api-reqres.js
+   k6 run prueba-api.js
 
 2. Si compilaste k6 con el dashboard visual:
     ```bash
-    ./k6.exe run --out dashboard prueba-api-reqres.js
+    ./k6.exe run --out dashboard prueba-api.js
 
 Esto abrirá un dashboard en tu navegador: http://localhost:5665/
 
